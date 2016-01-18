@@ -2,6 +2,7 @@ package com.zdd.activitytest;
 
 import android.R.raw;
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,15 +15,15 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		findViewById(R.id.btnStartAnotherAty).setOnClickListener(new OnClickListener() {
+		findViewById(R.id.btnStartAnotherAty).setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				
+				startActivity(new Intent(MainActivity.this,ActivityOne.class));
 			}
 		});
 	}
+
 	
 
 	@Override
