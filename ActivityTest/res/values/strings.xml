@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityTest</string>
+    <string name="activity_1">这是activity 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="StartAnotherAty">启动另一个Activity</string>
+
+</resources>
